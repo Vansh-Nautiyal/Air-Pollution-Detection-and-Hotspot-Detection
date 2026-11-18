@@ -1,0 +1,19 @@
+{
+  "test_samples": 61585,
+  "sequence_length_hours": 24,
+  "forecast_horizon_hours": 1,
+  "lstm": {
+    "mae": 10.714847564697266,
+    "rmse": 20.210667971482675,
+    "r2": 0.9525933265686035
+  },
+  "persistence_baseline": {
+    "mae": 11.041714668273926,
+    "rmse": 22.184491020659074,
+    "r2": 0.9428814649581909
+  },
+  "inference": {
+    "total_seconds": 2.6557323999995788,
+    "milliseconds_per_sample": 0.043123039701219106
+  }
+}
